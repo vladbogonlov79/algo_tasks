@@ -19,3 +19,4 @@
 - [Sequence sum](https://informatics.msk.ru/mod/statements/view.php?id=2585&chapterid=3065#1)
 
 - [Even numbers in sequence](https://informatics.msk.ru/mod/statements/view.php?id=2585&chapterid=3067#1)
+
