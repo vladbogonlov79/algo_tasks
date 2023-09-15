@@ -1,4 +1,4 @@
-number=int(input())
+number = int(input())
 dozens = (number // 10)
 
-print (dozens)
+print(dozens)

@@ -1,5 +1,4 @@
 number =int(input())
-last_digit =number % 10
+last_digit = number % 10
 
-print (last_digit)
-179
+print(last_digit)
