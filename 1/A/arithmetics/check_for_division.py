@@ -1,4 +1,4 @@
-n = int(input())
-m = int(input())
+first_number= int(input())
+second_number = int(input())
 
-print(1 + ( n % m ) * ( m % n))
+print(1 + (first_number % second_number) * ( second_number  % first_number))
