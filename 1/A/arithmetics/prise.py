@@ -4,13 +4,3 @@ quantity = int(input())
 money *= quantity
 
 print(money // 100, money % 100)
-
-
-
-
-
-
-
-
-
-
