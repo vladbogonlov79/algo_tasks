@@ -1,26 +1,6 @@
-rubles = int(input())
-kopecks = int(input())
+money = 100 * int(input())
+money += int(input())
 quantity = int(input())
+money *= quantity
 
-rubles = rubles * quantity
-kopecks = kopecks * quantity
-
-if kopecks > 100:
-    rubles =  rubles + (kopecks // 100)
-    kopecks = kopecks % 100
-
-    print(rubles, kopecks)
-
-
-else:
-    print(rubles,kopecks)
-
-
-
-
-
-
-
-
-
-
+print(money // 100, money % 100)

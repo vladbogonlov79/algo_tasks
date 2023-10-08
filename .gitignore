@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+<<<<<<< HEAD
+*.idea
+=======
+*.idea/
+>>>>>>> 4cd4d3e1bbb7d803d2d030530af7816d35afa23a
