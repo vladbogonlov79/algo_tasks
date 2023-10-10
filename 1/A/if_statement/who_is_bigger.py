@@ -7,10 +7,3 @@ elif second_number < first_number:
     print(1)
 elif second_number == first_number:
     print(0)
-
-
-
-
-
-
-
