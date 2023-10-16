@@ -2,6 +2,14 @@
 
 ## Структура проекта:
 
+```
+1 # level
+├── A # sublevel
+│   ├── arithmetics # part
+│   ├── if_statement
+│   └── loops
+└── B
+```
 
 ## Как работать с гитом?
 
