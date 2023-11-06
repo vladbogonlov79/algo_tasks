@@ -1,15 +1,10 @@
-numbers = int(input())
-quantity = -1
-zeros = 0
+length = int(input())
+was_zero = False
 
-for i in range(numbers):
-    quantity = int(input())
-    if quantity == 0:
-        zeros += 1
-if zeros > 0:
+for _ in range(length):
+    was_zero = was_zero or int(input()) == 0
+
+if was_zero:
     print("YES")
-
 else:
     print("NO")
-
-
