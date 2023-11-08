@@ -8,4 +8,3 @@ for i in range(0, length):
     if mass[i - 1] < mass[i]:
         quantity += 1
 print(quantity)
-
