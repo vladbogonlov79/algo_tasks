@@ -1,10 +1,10 @@
-length = int(input())
-mass = list(map(int, input().split()))
+n = int(input())
+lts = list(map(int, input().split()))
 quantity = 0
 
-for i in range(0, length):
+for i in range(0, n):
     if i == 0:
         continue
-    if mass[i - 1] < mass[i]:
+    if lts[i - 1] < lts[i]:
         quantity += 1
 print(quantity)

@@ -1,6 +1,6 @@
-length = int(input())
-mass = list(map(int, input().split()))
+n = int(input())
+lts = list(map(int, input().split()))
 
-for i in range(0, length):
+for i in range(0, n):
     if i % 2 == 0:
-        print(mass[i])
+        print(lts[i])
