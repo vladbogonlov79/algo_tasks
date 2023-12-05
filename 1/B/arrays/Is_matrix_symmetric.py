@@ -1,11 +1,8 @@
 n = int(input())
-matrix = []
+matrix = [list(map(int, input().split())) for _ in range(n)]
 flag = True
-for _ in range(n):
-    tmp = [int(x) for x in input().split()]
-    matrix.append(tmp)
 for i in range(n):
-    for j in range(n):
+    for j in range(i + 1, n):
         if matrix[i][j] != matrix[j][i]:
             flag = False
             break
@@ -13,3 +10,7 @@ if flag:
     print("yes")
 else:
     print("no")
+
+
+
+
