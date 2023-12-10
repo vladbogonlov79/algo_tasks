@@ -10,7 +10,3 @@ if flag:
     print("yes")
 else:
     print("no")
-
-
-
-
