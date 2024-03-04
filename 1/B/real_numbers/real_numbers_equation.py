@@ -2,7 +2,8 @@ sum_ = float(input())
 sum_ += float(input())
 amount = float(input())
 amount = amount - sum_
-eps = 0.00000001
+eps = 1e-6
+
 if abs(amount) < eps:
     print("YES")
 else:

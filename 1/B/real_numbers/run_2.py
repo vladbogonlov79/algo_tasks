@@ -1,18 +1,18 @@
 inp = list(map(float, input().split()))
 
 if len(inp) == 1:
-    mileage = inp[0]
+    ran_kilometers = inp[0]
     distance = int(input())
 else:
-    mileage, distance = inp
+    ran_kilometers, distance = inp
 
-total_mileage = mileage
+total_distance = ran_kilometers
 days = 1
-eps = 0.000001
+eps = 1e-6
 
-while distance - total_mileage > eps and total_mileage < distance:
-    mileage += mileage * 0.7
-    total_mileage += mileage
+while abs(distance - ran_kilometers) > eps:
+    ran_kilometers += ran_kilometers * 0.7
+    total_distance += ran_kilometers
     days += 1
 
 print(days)

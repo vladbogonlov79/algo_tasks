@@ -3,7 +3,7 @@ N = int(input())
 total_protein = 0
 total_fat = 0
 total_carbohydrate = 0
-eps = 0.00001
+eps = 1e-6
 
 for i in range(N):
     Ai, Bi, Ci, Qi = map(float, input().split())
