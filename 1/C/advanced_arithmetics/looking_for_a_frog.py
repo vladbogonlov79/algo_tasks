@@ -1,4 +1,6 @@
 long, time = map(int, input().split())
-s = long - time
-l = s % long
-print(l)
+n = time % (2 * long)
+if n > long:
+    n = 2 * long - n
+
+print(n)
