@@ -1,6 +1,7 @@
-long, time = map(int, input().split())
-n = time % (2 * long)
-if n > long:
-    n = 2 * long - n
+k, t = map(int, input().split())
 
-print(n)
+n = t % (2 * k)
+odd = ((t// k ) % 2)
+ans = odd * (2 * k - n ) + (1 - odd) * n
+
+print(ans)
