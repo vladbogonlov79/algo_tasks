@@ -1,7 +1,6 @@
 mystring = input()
-word = mystring[::-1]
 
-if word == mystring:
+if mystring == mystring[-1::-1]:
     print("yes")
 else:
     print("no")
