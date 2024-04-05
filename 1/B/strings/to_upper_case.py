@@ -1,15 +1,13 @@
 k = input()
 a = 0
-b = ''
+b = []
+
 for i in k:
     ord(i)
     if ord(i) >= 97 and ord(i) <= 122:
         a = ord(i) - 32
-        b += chr(a)
+        b.append(chr(a))
     else:
-        b += chr(ord(i))
+        b.append(chr(ord(i)))
 
-print(b)
-
-
-
+print("".join(b))
