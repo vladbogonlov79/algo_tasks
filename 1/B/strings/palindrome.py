@@ -6,6 +6,3 @@ if mystring == s:
     print("yes")
 else:
     print("no")
-
-
-
