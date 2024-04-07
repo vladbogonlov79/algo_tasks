@@ -8,6 +8,6 @@ for i in k:
         a = ord(i) - 32
         b.append(chr(a))
     else:
-        b.append(chr(ord(i)))
+        b.append(i)
 
 print("".join(b))
