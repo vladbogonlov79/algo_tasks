@@ -1,13 +1,13 @@
-k = input()
-a = 0
-b = []
+s = input()
+ch = 0
+ls = []
 
-for i in k:
+for i in s:
     ord(i)
     if ord(i) >= 97 and ord(i) <= 122:
-        a = ord(i) - 32
-        b.append(chr(a))
+        ch = ord(i) - 32
+        ls.append(chr(ch))
     else:
-        b.append(i)
+        ls.append(i)
 
-print("".join(b))
+print("".join(ls))
