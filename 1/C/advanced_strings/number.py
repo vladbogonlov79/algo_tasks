@@ -1,6 +1,11 @@
 num = list(input())
 a = []
-i = 0
-for i in range(len(num), 0, -1):
+n = 0
+for i in range(len(num)-1, -1, -1):
     a += num[i]
-print(a)
+    n += 1
+    if n % 3 == 0:
+        a.append(",")
+
+print(''.join(a[::-1]).strip(','))
+
