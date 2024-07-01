@@ -1,5 +1,9 @@
-lin = input()
-for i in lin:
-    if lin.count(i) == 2:
-        print(i)
-        break
+string = input()
+
+for i in range(len(string)):
+    for j in range(i + 1, len(string)):
+        if string[i] == string[j]:
+            print(string[i])
+
+
+
