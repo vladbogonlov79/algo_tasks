@@ -1,9 +1,7 @@
-string = input()
-
-for i in range(len(string)):
-    for j in range(i + 1, len(string)):
-        if string[i] == string[j]:
-            print(string[i])
-
+st = input()
+for i in range(len(st)):
+    for j in range(i + 1, len(st)):
+        if st[i] == st[j]:
+            print(st[i])
 
 
