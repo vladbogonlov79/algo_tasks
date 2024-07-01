@@ -1,10 +1,6 @@
-integer = int(input())
-valid_num = float(input())
-sum = 1
-mul = 1
+s = int(input())
+b = float(input())
 
-for i in range(1, integer + 1):
-    mul *= valid_num
-    sum += mul
+a = b ** 1 * (b ** s - 1) / (b - 1)
 
-print(sum)
+print(1 + a)
