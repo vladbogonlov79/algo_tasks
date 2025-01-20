@@ -1,4 +1,3 @@
-py.
 a, b, a2, b2 = map(int, input().split())
 x = abs(a - a2)
 y = abs(b - b2)
