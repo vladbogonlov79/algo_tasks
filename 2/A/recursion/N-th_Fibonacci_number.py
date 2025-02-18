@@ -1,9 +1,8 @@
-def Fib(n):
+def fib(n):
     if n <= 1:
         return n
     else:
-        return Fib(n - 1) + Fib(n - 2)
+        return fib(n - 1) + fib(n - 2)
 
-print(Fib(int(input())))
-
+print(fib(int(input())))
 
