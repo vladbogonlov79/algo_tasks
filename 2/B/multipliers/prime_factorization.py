@@ -1,5 +1,5 @@
 def smallest_div(n,d):
-    for i in range(d, int(n ** 0.5 + 1)):
+    for i in range(d, int(n**0.5 + 1)):
         if n % i == 0:
             return (i)
     return(n)
