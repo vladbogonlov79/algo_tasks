@@ -13,7 +13,7 @@ for i in range(c - 1):
     for j in range(n - 1 - i):
         if tasks[j] > tasks[j + 1]:
             tasks[j], tasks[j + 1] = tasks[j + 1], tasks[j]
-            swapped = True
+            
 
 solved_count = 0
 
